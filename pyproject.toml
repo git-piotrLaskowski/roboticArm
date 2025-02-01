@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "packages"
+version = "0.1.0"
+description = "Packages for running program properly"
+authors = ["Laskoski <piotr.laskowski@kneiti.prz.edu.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<=3.12.1"
+logging = "^0.4.9.6"
+colorlog = "^6.9.0"
+pyreadline3 = "^3.5.4"
+mpremote = "^1.24.1"
+rshell = "^0.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
